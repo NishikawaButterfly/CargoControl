@@ -1,0 +1,171 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Servicios Section */
+.servicios {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.servicios-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    flex: 1 1 30%;
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.servicio i {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Características Section */
+.caracteristicas {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.caracteristicas-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caracteristica {
+    flex: 1 1 30%;
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.caracteristica i {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Beneficios Section */
+.beneficios {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.beneficios-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.beneficio {
+    flex: 1 1 30%;
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.beneficio i {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Contacto Section */
+.contacto {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
